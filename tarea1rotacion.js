@@ -13,7 +13,7 @@ function rotaciones(lapalabra) {
         let parte2 = lapalabra.substring(0, i)
 
 
-
+                    
 
         rotacion.push(parte1 + parte2)
 

@@ -1,15 +1,14 @@
 function wallpaper(l, w, h) {
 
-    let roll = (10 * 0.52);
+    let rollo = (10 * 0.52);
 
     let h2 = (h * 0.15) + h;
 
     let area = 2 *((l*h2) + (w*h2));
 
-    let r = Math.ceil(area/roll); 
+    let r = Math.ceil(area/rollo); 
 
-    let numeros = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", 
-    "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"]
+    let numeros = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"]
 
     if (r > 0 && r < 21) { 
 
@@ -19,7 +18,7 @@ function wallpaper(l, w, h) {
     
         else if (r === 0) {
 
-            return "zero";
+            return "cero";
 
     } 
     
