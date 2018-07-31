@@ -1,41 +1,45 @@
-#flex{
+#container{
     display: flex;
+    /* border: 1px solid black; */
     justify-content: center;
+    margin: 50px
 
+}
+
+
+#container #tooling{
+  
+        /* height: 150px; */
+        /* width: 50%; */
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 20px;
         
-}
-
-
-/* #flex div{
-    border: 1px solid black;
-} */
-
-
-#flex #card {
-    height: 150px;
-    width: 50%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin:20px 0;
-    box-shadow: 5px 5px 5px 5px #888888 ;
-
-}
-
-    #flex #card #button{
-        grid-column: 1/3;
-    }
-
-    #button{
-        display: flex;
-        justify-content: center;
+      
         margin: auto;
+        
     
     }
 
-    #img{
+
+    #izq{
         display: flex;
-        justify-content: center;
+        
+        /* border:1px solid black; */
+    }
+
+    #der{
+        /* display: flex; */
+        /* border:1px solid black;   */
+        padding: 10px; 
+    }
+    img{
+        height:100%;
+        width:100%;
         margin: auto;
     }
- 
+
+    h6{
+        text-align: center;
+        color: #1976d2;
+    }

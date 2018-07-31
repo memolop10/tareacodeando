@@ -8,6 +8,7 @@ import { NuevaCartaComponent } from './nueva-carta/nueva-carta.component';
 import { DevelopComponent } from './develop/develop.component';
 import { SpeedComponent } from './speed/speed.component';
 import { ToolingComponent } from './tooling/tooling.component';
+import { LovedComponent } from './loved/loved.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ToolingComponent } from './tooling/tooling.component';
     NuevaCartaComponent,
     DevelopComponent,
     SpeedComponent,
-    ToolingComponent
+    ToolingComponent,
+    LovedComponent
   ],
   imports: [
     BrowserModule

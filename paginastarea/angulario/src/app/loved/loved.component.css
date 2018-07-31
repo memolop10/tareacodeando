@@ -1,0 +1,74 @@
+#container{
+    display: flex;
+    justify-content: center;
+
+        
+}
+
+
+#container div{
+    /* border: 1px solid black; */
+}
+
+
+#container #loved {
+    /* height: 150px; */
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px; 
+    margin:20px 0;
+    /* box-shadow: 5px 5px 5px 5px #888888 ; */
+
+}
+
+#container #loved #abajo{
+    grid-column: 1/3;
+}
+
+img{
+    
+     display: flex;
+    justify-content: center;
+    margin: auto;
+    height:100%;
+    width:100%;   
+}
+
+izq{
+    display:block;
+    
+}
+
+
+der{
+    display: block;
+
+}
+
+#abajo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+}
+
+
+#abajo img{
+    display: flex;
+    height: 50px;
+    margin: auto;
+    justify-content: center;
+}
+
+h6 {
+    text-align: center;
+   color: blue;
+}
+    
+
+h5{
+    text-align: center;
+    color: blue;
+}
