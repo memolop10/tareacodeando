@@ -1,8 +1,4 @@
-#imgangular{
-  position: absolute;
-  z-index: 10000;
-  align-items: center;
-}
+
 * {
   -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -35,10 +31,29 @@ body {
   z-index:1;
   display:block;
   float:left;
-  margin-top:-100px;
+  margin-top:-163px;
   width:100%;
   background:white;
   transform:skew(0deg,10deg);
 -ms-transform:skew(0deg,10deg); /* IE 9 */
 -webkit-transform:skew(0deg,5deg); /* Safari and Chrome */
+}
+
+.hero-headline {
+  z-index: 100;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  position: absolute;
+  width: 100%;
+} 
+
+  #der{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+span{
+  color: beige
 }

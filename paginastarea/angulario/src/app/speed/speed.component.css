@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    margin: 50px
+
+}
+
+
+#container #develop{
+  
+        /* height: 150px; */
+        /* width: 50%; */
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        
+      
+        margin: auto;
+        
+    
+    }
+
+
+    #izq{
+        /* border:1px solid black;   */
+        padding: 10px; 
+        ;
+    }
+
+    #der{
+        /* display: flex; */
+        display: flex;
+        
+        /* border:1px solid black; */
+        
+    }
+    img{
+        height:80%;
+        width:80%;
+        margin: auto;
+    }
+
+    h6{
+        text-align: center;
+        color: #1976d2;
+    }
