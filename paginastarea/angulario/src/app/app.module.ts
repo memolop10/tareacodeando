@@ -9,6 +9,7 @@ import { DevelopComponent } from './develop/develop.component';
 import { SpeedComponent } from './speed/speed.component';
 import { ToolingComponent } from './tooling/tooling.component';
 import { LovedComponent } from './loved/loved.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LovedComponent } from './loved/loved.component';
     DevelopComponent,
     SpeedComponent,
     ToolingComponent,
-    LovedComponent
+    LovedComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,29 @@
+#container{
+    /* display: flex; */
+    border: 1px solid black;
+    justify-content: center;
+    margin: 50px
+}
+
+
+#container #listas{
+    display:grid;
+    grid-template-columns: repeat(4 , 1fr)
+}
+
+li{
+    list-style-type: none;
+    text-align: left;
+}
+
+h6{
+    /* color:blue; */
+    text-align: left;
+}
+
+p{
+
+    text-align: center;
+    
+
+}
