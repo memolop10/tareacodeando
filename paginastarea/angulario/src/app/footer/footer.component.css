@@ -2,13 +2,20 @@
     /* display: flex; */
     border: 1px solid black;
     justify-content: center;
-    margin: 50px
+    margin: 50px;
+    background-color:blue;
+    width: 100%;
+    margin-left: 0px;
+    
+    
 }
 
 
 #container #listas{
     display:grid;
-    grid-template-columns: repeat(4 , 1fr)
+    grid-template-columns: repeat(4 , 1fr);
+    color: #ffff;
+    padding: 5px;
 }
 
 li{
@@ -24,6 +31,7 @@ h6{
 p{
 
     text-align: center;
+    color: #ffff;
     
 
 }
